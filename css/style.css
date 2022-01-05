@@ -349,3 +349,180 @@ a {
 .step-2 {
     margin-top: 190px;
 }
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    position: relative;
+    background: #0D0D0D;
+    min-width: 49%;
+    padding-left: 30px;
+    padding-top: 34px;
+}
+
+.card-label {
+    font-size: 30px;
+    line-height: 45px;
+    color: #0FC65C;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 120px;
+    color: #FFFFFF;
+    margin-top: 24px;
+}
+
+.card-title > span {
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 120px;
+    color: #919191;
+}
+
+.card-image {
+    max-width: 100%;
+    height: auto;
+    padding-left: 50px;
+}
+
+.card-2 {
+    margin-left: 23px;
+}
+
+.card-2 > .card-title {
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 93px;
+    color: #FFFFFF;
+    margin-top: 96px;
+}
+
+.card-2 > .card-title > span {
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 93px;
+    color: #919191;
+}
+
+.experts-block {
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.experts-title {
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 112px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 52px;
+}
+
+.experts-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.audience-block {
+    position: relative;
+    margin-top: 180px;
+    margin-bottom: 180px;
+}
+
+.audience-title {
+    position: absolute;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 105px;
+    text-align: center;
+    color: #FFFFFF;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.audience-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.get__strated-block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    flex-grow: 1;
+    margin-bottom: 183px;
+}
+
+.get_started_title {
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 150px;
+    color: #FFFFFF;
+}
+
+.get__started-text {
+    font-size: 43px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+
+.started-btn-max {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+    padding: 28px 100px;
+    margin-top: 15px;
+}
+
+.started-btn-max:hover {
+    background-color: #000;
+    border: 2px solid #3C82F4;
+    padding: 26px 98px;
+}
+
+.get__strated-block > .subtext {
+    font-size: 38px;
+    line-height: 57px;
+    text-align: center;
+    color: #707070;
+}
+
+.get__strated-block > .subtext > b {
+    margin-left: 22px;
+    margin-right: 11px;
+}
+
+.company-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__logo-img {
+    width: 70%;
+}
+
+.email {
+    font-size: 15px;
+    line-height: 20px;
+    color: #707070;
+}
+
+.email:hover {
+    color: #3C82F4;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
